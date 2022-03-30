@@ -9,6 +9,6 @@
 #### wow.main.js - https://wowjs.uk/
 ------------------------------------------------------------------------
 #### Css
-For animation effects I used this site:
+#### For animation effects I used this site:
 
 https://animate.style/
