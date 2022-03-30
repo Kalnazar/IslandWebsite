@@ -1,14 +1,14 @@
 # IslandWebsite
 
-### I found inspiration and design for the site, from this source: 
+#### I found inspiration and design for the site, from this source: 
 
 https://www.pinterest.ie/yogiki/insp-island/
 -----------------------------------------------------------------------
-### JavaScript
+#### JavaScript
 
 wow.main.js - https://wowjs.uk/
 ------------------------------------------------------------------------
-### Css
+#### Css
 For animation effects I used this site:
 
 https://animate.style/
