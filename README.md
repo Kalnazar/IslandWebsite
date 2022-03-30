@@ -5,8 +5,8 @@ them, you get something wonderful. The purpose of the site was to attract custom
 design and convenience of the site, I think that everyone who visits this site will not remain 
 indifferent, and leave their contact information, and finally get away from all the fuss )
 ### Requirenments
-- ul You should have xampp or other application for server.
-- ul You should create Database
+- You should have xampp or other application for server.
+- You should create Database
 #### I found inspiration and design for the site, from this source: 
 
 #### https://www.pinterest.ie/yogiki/insp-island/
