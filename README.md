@@ -4,7 +4,6 @@ Nice design and nice code. If you combine
 them, you get something wonderful. The purpose of the site was to attract customers thanks to the 
 design and convenience of the site, I think that everyone who visits this site will not remain 
 indifferent, and leave their contact information, and finally get away from all the fuss )
-
 #### responsive to any device
 
 ### Requirenments
