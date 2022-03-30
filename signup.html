@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ISLAND</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<style>
+	
+	.wrapper{
+		background: url(img/1st-section.jpg) fixed;
+		background-size: cover;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	form{
+		width: 500px;
+		padding: 30px;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: white;
+	}
+	form:hover{
+		transition: 1s;
+	}
+	form h2{
+		font-size: 50px;
+	}
+	form label{
+		margin-top: 20px;
+	}
+	form .btn{
+		background-color: #ff7d27;
+		color: white;
+	}
+	form a{
+		color: aqua;
+	}
+	#auto{
+		display: none;
+	}
+
+</style>
+<body>
+	<div class="wrapper">
+		
+		<form id="reg" action="server/registration.php" method="post">
+			<h2 class="text-center p-2 rounded animate__animated animate__bounce">ISLAND</h2>
+			<a href="#" id="login">Login</a><br>
+			<label>Your name: </label><input type="text" class="form-control" name="name">
+			<label>Your password: </label><input type="password" class="form-control" name="pass">
+			<label>Confirm password: </label><input type="password" class="form-control" name="pass2">
+			<input type="submit" class="btn form-control mt-5 p-2" value="REGISTER" name="btn">
+		</form>
+
+		<form id="auto" action="server/authorization.php" method="post">
+			<h2 class="text-center p-2 rounded animate__animated animate__bounce">ISLAND</h2>
+			<a href="#" id="register">Registration</a><br>
+			<label>Your name: </label><input type="text" class="form-control" name="name">
+			<label>Your password: </label><input type="password" class="form-control" name="pass">
+			<input type="submit" class="btn form-control mt-5 p-2" value="REGISTER" name="btn">
+		</form>
+
+	</div>
+
+	<script>
+
+		document.getElementById('register').onclick = function(){
+			document.getElementById('auto').style.display = "none";
+			document.getElementById('reg').style.display = "block";
+		}
+		document.getElementById('login').onclick = function(){
+			document.getElementById('reg').style.display = "none";
+			document.getElementById('auto').style.display = "block";
+		}
+
+	</script>
+</body>
+</html>
