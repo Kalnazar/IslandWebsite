@@ -7,6 +7,7 @@ indifferent, and leave their contact information, and finally get away from all 
 ### Requirenments
 - You should have xampp or other application for server.
 - You should create Database
+Or you can just open the index.html file and view the site without registering.
 #### I found inspiration and design for the site, from this source: 
 
 #### https://www.pinterest.ie/yogiki/insp-island/
